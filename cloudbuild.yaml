@@ -8,9 +8,3 @@ steps:
     name: 'gcr.io/cloud-builders/go'
     args: ['test', 'desafio-go']
     env: ['GOPATH=.']
-
-#  - id: "Fazendo o build da aplicação"
-#    name: 'gcr.io/cloud-builders/docker'
-#    args: ['build', '--tag=gcr.io/$PROJECT_ID/desafio-go', '.']
-
-images: ['gcr.io/$PROJECT_ID/desafio-go']
