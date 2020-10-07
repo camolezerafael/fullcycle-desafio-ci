@@ -8,5 +8,3 @@ steps:
     name: 'gcr.io/cloud-builders/go'
     args: ['test', 'desafio-go']
     env: ['GOPATH=.']
-
-##
