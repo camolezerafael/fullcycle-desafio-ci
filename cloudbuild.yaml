@@ -12,5 +12,5 @@ steps:
 #  - id: "Fazendo o build da aplicação"
 #    name: 'gcr.io/cloud-builders/docker'
 #    args: ['build', '--tag=gcr.io/$PROJECT_ID/desafio-go', '.']
-# Arquivo alterado
+
 images: ['gcr.io/$PROJECT_ID/desafio-go']
