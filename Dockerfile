@@ -1,5 +1,5 @@
 FROM scratch
 
-COPY gopath/bin/src/desafio-go /src/desafio-go
+COPY bin/desafio-go /desafio-go
 
-ENTRYPOINT ["/src/desafio-go"]
+ENTRYPOINT ["/desafio-go"]
